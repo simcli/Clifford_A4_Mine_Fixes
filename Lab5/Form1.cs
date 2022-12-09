@@ -23,7 +23,7 @@ namespace Lab5
         {
 
             Random rand = new Random();
-            int  num 1 = rand.Next(min, max);
+            int  num = rand.Next(min, max);
 
             return num;
         }
@@ -82,7 +82,7 @@ namespace Lab5
         }
         private void SetupOption()
         {
-            if (radStats.Checked == false)
+            if (radStats.Checked == true)
             {
                 grpStats.Visible = true;
                 grpText.Visible = false;
